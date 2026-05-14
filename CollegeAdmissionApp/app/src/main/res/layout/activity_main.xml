@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="2"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAdmission"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_columnWeight="1"
+        android:text="Admission"/>
+
+    <Button
+        android:id="@+id/btnCourses"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_columnWeight="1"
+        android:text="Courses"/>
+
+    <Button
+        android:id="@+id/btnFees"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_columnWeight="1"
+        android:text="Fees"/>
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_columnWeight="1"
+        android:text="Contact"/>
+
+</GridLayout>

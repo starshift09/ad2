@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitness App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnYoga"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Yoga"/>
+
+    <Button
+        android:id="@+id/btnGym"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Gym"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnDiet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Diet"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
